@@ -1,0 +1,30 @@
+XTerm*faceName: Bitstream Vera Serif Mono
+XTerm*faceSize: 11
+
+XTerm*background: #1f1f1f
+XTerm*foreground: #dcdccc
+XTerm*cursorColor: #8faf9f
+
+XTerm*locale: true
+
+XTerm*saveLines: 4096
+
+XTerm*color0: #000d18 
+XTerm*color1: #e89393
+XTerm*color2: #9ece9e
+XTerm*color3: #f0dfaf
+XTerm*color4: #8cd0d3
+XTerm*color5: #c0bed1
+XTerm*color6: #dfaf8f
+XTerm*color7: #efefef
+XTerm*color8: #000d18
+XTerm*color9: #e89393
+XTerm*color10: #9ece9e
+XTerm*color11: #f0dfaf
+XTerm*color12: #8cd0d3
+XTerm*color13: #c0bed1
+XTerm*color14: #dfaf8f
+XTerm*color15: #efefef
+XTerm*colorBD: #ffcfaf
+XTerm*colorIT: #ccdc90
+XTerm*colorUL: #80d4aa

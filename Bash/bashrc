@@ -1,0 +1,14 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# if $XTERM_VERSION has value, transparent the backgroud
+[ -n "$XTERM_VERSION" ] && transset-df -a > /dev/null
+
+alias ls='ls --color=auto'
+alias ll='ls -al --color=auto'
+alias grep='grep -nr --color'
+PS1='[\u@\h \W]\$ '
