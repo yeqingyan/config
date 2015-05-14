@@ -14,5 +14,7 @@ fi
 [ -f ~/.xprofile ] && source ~/.xprofile
 # Randomly change wallpaper
 feh --bg-max --randomize ~/.wallpaper/* &
+/usr/bin/VBoxClient-all
 # Run i3
-exec i3 
+exec i3
+ 

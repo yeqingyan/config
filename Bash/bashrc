@@ -12,3 +12,6 @@ alias ls='ls --color=auto'
 alias ll='ls -al --color=auto'
 alias grep='grep -nr --color'
 PS1='[\u@\h \W]\$ '
+
+# Toolchian for RaspberryPi
+PATH=$PATH:$HOME/workspace/toolchain/arm-2008q3/bin
