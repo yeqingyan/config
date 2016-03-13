@@ -1,0 +1,28 @@
+# General setting
+# ===============
+
+# Enable ls colorized output
+export CLICOLOR='cons25'
+
+# Grep 
+export GREP_OPTIONS='--color=always -n'
+
+# Using colordiff instead of diff
+alias diff='colordiff'
+
+# Default editor is vim
+export EDITOR='vim'
+
+
+# Tools
+# =====
+
+# Gradle 
+export PATH="$PATH:/Users/alan/tools/gradle/gradle-2.11/bin"
+
+# Alias
+# =====
+alias ssh_tos='ssh -p 3022 alan@127.0.0.1'
+alias ssh_aws='ssh -i /Users/alan/Documents/AWS/yeqingyan.pem ec2-user@54.183.95.147'
+alias winsteam='wine ~/.wine/drive_c/Program\ Files/Steam/Steam.exe'
+
