@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { 
+        "key": "cmd+left",              
+        "command": "-cursorHome",
+        "when": "editorTextFocus" 
+    },
+    { 
+        "key": "cmd+right",             
+        "command": "-cursorEnd",
+        "when": "editorTextFocus" 
+    },
+    {
+        "key": "cmd+left",
+        "command": "cursorLineStart",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "cursorLineEnd",
+        "when": "editorTextFocus"
+    }
+]
